@@ -50,7 +50,7 @@ class Status(Resource):
     def get(self):
         return {
             'grupo': 'Grupo 8',
-            'message': 'Status'
+            'message': 'Status: exibe as condições do diretório de trabalho e da área de staging. Ele permite que você veja quais alterações foram despreparadas, quais não foram e quais arquivos não estão sendo monitorados pelo Git.'
         }
 
 class Log(Resource):

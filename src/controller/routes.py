@@ -15,7 +15,8 @@ class Pull(Resource):
     def get(self):
         return {
             'grupo': 'Grupo 2',
-            'message': 'Pull'
+            'message': 'Pull',
+            'funcionalidade': 'Baixar alterações do repositório remoto'
         }
 
 class Add(Resource):

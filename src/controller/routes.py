@@ -2,7 +2,14 @@ from flask_restx import Resource
 
 class Push(Resource):
     def get(self):
-        return {'message': 'Push'}, 200
+        return {
+            'message': 'Push',
+            'funcionalidade': 'Enviar alterações para o repositório remoto',
+            'opcoes': {
+                '--force': 'git push origin <nome_branch>',
+            }
+
+        }, 200
 
 class Pull(Resource):
     def get(self):

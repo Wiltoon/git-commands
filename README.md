@@ -18,3 +18,16 @@
 
 **git rebase `<nome_branch>`** = _Você pegará todos os `commits` da branch que inseriu o nome e irá coloca-lo antes de acontecer sua alteração_
 
+# SCRIPTS
+
+**- git clone https://github.com/Wiltoon/git-commands.git**
+
+**- cd git-commands**
+
+**- python3 -m venv .venv**
+
+**- source .venv/bin/activate**
+
+**- pip install -r requirements.txt**
+
+**- python3 app.py**

@@ -15,7 +15,8 @@ class Add(Resource):
     def get(self):
         return {
             'grupo': 'Grupo 3',
-            'message': 'Add'
+            'message': 'Add',
+            'description': 'O comando "git add [nome-de-arquivo]" cria um pacote com os arquivos modificados selecionados (no comando) para a branch que você vai commitar (geralmente a main). Caso utilize "git add .", ele vai criar um pacote com todos os aruivos modificados.'
         }
 
 class Commit(Resource):

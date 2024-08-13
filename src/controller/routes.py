@@ -16,6 +16,7 @@ class Pull(Resource):
         return {
             'grupo': 'Grupo 2',
             'message': 'fiz a implementacao do pull'
+            'funcionalidade': 'Baixar alterações do repositório remoto'
         }
 
 class Add(Resource):
